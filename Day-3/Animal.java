@@ -5,27 +5,27 @@ class Animal {
 }
 
 class Dog extends Animal {
-        @Override
+	@Override
 	public void sound() {
 		System.out.println("bow wow");
 	}
 }
 
 class Cat extends Animal {
-        @Override
+	@Override
 	public void sound() {
 		System.out.println("meow meow");
 	}
 }
 
 class Duck extends Animal {
-        @Override
+	@Override
 	public void sound() {
 		System.out.println("quack quack");
 	}
 }
 
- class Entry4 {
+class Entry4 {
 	public static void main(String[] args) {
 		Animal[] animals = new Animal[4];
 		animals[0] = new Animal();
