@@ -1,0 +1,15 @@
+package Day6;
+
+import java.util.Scanner;
+
+public class Input {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            String name = scanner.nextLine();
+            String address = scanner.nextLine();
+
+            System.out.println("Name: " + name);
+            System.out.println("Address: " + address);
+        }
+    }
+}
